@@ -41,6 +41,6 @@ int main(){
 	
 	//The solution is stopping early binding. Beacuse of early binding, the compiler decides which function to run based
 	//on the type of the caller pointer rather than the type of the object which is pointed to by the pointer.
-	//Insted we need to use late binding i.e binding on runtime instread of compile time.
+	//Insted we need to use late binding i.e binding on runtime instead of compile time.
 }
 

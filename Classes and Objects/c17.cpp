@@ -31,12 +31,12 @@ class Complex{
 
 void Complex::fun(){
 
-	cout << "fu() is also a member function" << endl;
+	cout << "fun() is also a member function" << endl;
 }
 
 void fun1(Complex c){//this is the declaration of the friend function. It is defined without membership label " Complex:: "
 
-	cout << "The sum is : " << c.a + c.b << endl;//friend function can access the private members (a, b) but using an object	
+	cout << "The sum is : " << c.a + c.b << endl;//friend function can access the private members (a, b) not directly but by using an object	
 }
 
 int main(){

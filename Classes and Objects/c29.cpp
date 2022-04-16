@@ -1,4 +1,4 @@
-//Destructors in inheritance. Destructors are created to relese the memory of object's resources.//Constructor in inheritance. If the parent and the child have parameterized constructor
+//Destructors in inheritance. Destructors are created to relese the memory of object's resources.
 
 
 //The order of calling as well as order of execution is from child to parent.

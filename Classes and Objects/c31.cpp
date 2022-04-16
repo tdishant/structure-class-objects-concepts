@@ -29,6 +29,6 @@ int main(){
 
 	Box smallBox;
 	
-	smallBox.setDimensions(12, 10, 5);//When setDimesdion() is called, 'this' pointer will be allocated memory and it will store the address of caller onject(here - 'smallBox')
+	smallBox.setDimensions(12, 10, 5);//When setDimesdion() is called, 'this' pointer will be allocated memory and it will store the address of caller object(here - 'smallBox')
 	smallBox.showDimensions();
 }

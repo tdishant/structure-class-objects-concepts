@@ -33,6 +33,6 @@ int main(){
 	
 	p = &smallBox;
 	
-	p->setDimensions(1, 2, 3);//smallBox.setDimensions(12, 10, 5);
+	(*p).setDimensions(1, 2, 3);//smallBox.setDimensions(12, 10, 5);
 	p->showDimensions();//smallBox.showDimensions();
 }

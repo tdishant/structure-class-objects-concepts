@@ -1,4 +1,4 @@
-//Friend function part - 2
+//Friend function part - 2. A function can be friends to multiple classes at once.
 
 #include <iostream>
 
